@@ -6,7 +6,9 @@
 //
 //
 
-private class SFGaugeColors {
+import Foundation
+
+open class SFGaugeColors {
     
     class func red() -> UIColor {
         return UIColor.init(hex: "F44336")
